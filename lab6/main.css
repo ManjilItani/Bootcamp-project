@@ -1,0 +1,52 @@
+body {
+  background-color: #00ffff;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  25% {
+    background-color: #ff00bf;
+  }
+
+  40% {
+    background-color: #00ffbf;
+  }
+
+  45% {
+    background-color: #00ffff;
+  }
+
+  25% {
+    background-color: #ff8000;
+  }
+}
+
+h1.me {
+  color: #00ffff;
+  animation-name: name;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes name {
+  20% {
+    color: #8600fc;
+  }
+
+  10% {
+    color: #00fc86;
+  }
+
+  % {
+    color: #fe00bf;
+  }
+
+  10% {
+    color: #fa8000;
+  }
+}
+h2 {
+  color: white
+}
